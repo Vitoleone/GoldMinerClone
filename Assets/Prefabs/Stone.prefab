@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6294644940444474000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6294644940444474007}
+  - component: {fileID: 6294644940444474004}
+  - component: {fileID: 6294644940444474005}
+  - component: {fileID: 6294644940444474006}
+  m_Layer: 5
+  m_Name: Stone
+  m_TagString: Stone
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6294644940444474007
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6294644940444474000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -599.3, y: -413.7}
+  m_SizeDelta: {x: 239.77133, y: 156.60165}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &6294644940444474004
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6294644940444474000}
+  m_CullTransparentMesh: 0
+--- !u!114 &6294644940444474005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6294644940444474000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 810097237a84d154aa47ac024325f3ce, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!60 &6294644940444474006
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6294644940444474000}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: 5.9953003, y: 19.060568}
+      - {x: 13.331919, y: 17.134045}
+      - {x: -0.95105654, y: 0.30901697}
+      - {x: -0.5877852, y: -0.80901706}
+      - {x: 0.58778536, y: -0.80901694}
+      - {x: 6.4504433, y: 19.811886}
+      - {x: -2.3091536, y: 20.534134}
+      - {x: -26.213333, y: 38.76113}
+      - {x: -42.65827, y: 10.905481}
+      - {x: -61.9675, y: -11.472947}
+      - {x: -63.470375, y: -34.591022}
+      - {x: -35.223804, y: -41.464897}
+      - {x: 1.0051231, y: -38.814896}
+      - {x: 37.75094, y: -36.552032}
+      - {x: 57.87101, y: -32.412613}
+      - {x: 69.156784, y: 7.2733774}
+      - {x: 42.484467, y: 32.681767}
+      - {x: 23.441128, y: 37.355507}
+      - {x: -1.8641663, y: 43.56611}
+      - {x: -25.674711, y: 39.85215}
+      - {x: -13.282564, y: 15.873393}
+      - {x: -16.128597, y: 5.0417714}
+      - {x: -25.558474, y: -4.3276844}
+      - {x: -24.68833, y: -17.432674}
+      - {x: 0.29159355, y: -19.378166}
+      - {x: 23.200172, y: -15.62145}
+      - {x: 24.214846, y: -4.38456}
+      - {x: 26.625565, y: 5.7630215}
+      - {x: 17.55175, y: 13.9271965}
+      - {x: 6.7738037, y: 20.540676}
+      - {x: 13.660736, y: 17.42814}
